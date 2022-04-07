@@ -1,0 +1,44 @@
+.form--2{
+    max-width: 665px;
+    }
+    .form__row--first-row{
+      width: 100%;
+      display: grid;  
+      gap: 16px;
+      justify-content: space-between;  
+      grid-template-columns: 1fr 1fr; 
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* see notes below */
+      
+      
+    }
+    
+    .form--2__contactUs{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #130F1C;
+    }
+    
+    .form2__buttonBox{
+      display: flex;
+    justify-content: flex-end;
+    }
+    
+    .form2__buttonSubmit{
+    background-color:#651FFF ;
+    color: white;
+    border-radius: 5px;
+    padding: 12px 48px;
+    border: 1px solid #651FFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    }
+    
+    .form2__buttonSubmit:hover{
+      background-color:lightblue ;
+      border-color:lightblue ;
+    }

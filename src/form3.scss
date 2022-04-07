@@ -1,0 +1,86 @@
+.container3{
+    background-color: white;
+    display: flex;
+    max-width: 665px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+    border-radius: 10px;
+    
+    
+  }
+  
+  .contactInfo{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-width: 215px;
+  min-height: 100%;
+  justify-content: flex-start;
+  padding: 40px 16px 0px 16px;
+  gap: 30px;
+  background: #651FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  border-radius: 10px 0px 0px 10px;
+  
+  
+  
+  }
+  
+  .form--3{
+    max-width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 32px 16px 32px 32px;
+    
+    
+  }
+  
+  .form--3__inputs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between; 
+    gap: 16px;
+    
+  }
+  
+  .input2{
+  width: 100%;
+  background: #FAFAFA;
+  border-radius: 5px;
+  padding: 12px 14px 12px 12px;  
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  
+  }
+  
+  #textarea2{
+    width: 100%;
+    max-height: 85px;
+  }
+  
+  .form--3__contactUs{
+    //styleName: Roboto/H2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+
+.form--3{
+    
+}
+  
+  
+  }
